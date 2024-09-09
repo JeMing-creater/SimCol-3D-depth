@@ -1,0 +1,24 @@
+<EasyDict 0x221b81c0310
+  'dataset': <EasyDict 0x221b81c0cc0
+    'batch_size': 4,
+    'img_size': 352,
+    'num_workers': 0,
+    'root': './datasets'
+  >,
+  'models': <EasyDict 0x221b81c0e00
+    'FCBFormer_D': <EasyDict 0x221b81c0e50
+      'checkpoint_root': './src/models/model_components/pvt_v2_b3.pth'
+    >
+  >,
+  'trainer': <EasyDict 0x221b81c0d10
+    'betas': [0.9, 0.95],
+    'lr': 0.0001,
+    'num_epochs': 300,
+    'optimizer': 'adamw',
+    'warmup': 2,
+    'weight_decay': 0.05
+  >
+>
+load dataset...
+Start Training£¡
+Epoch [1/300][1/6905] Training Loss:0.1642252653837204
